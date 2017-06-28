@@ -16,8 +16,13 @@ $this->getLogger()->info("plugin by plugmcpe");
   }
   public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
  switch ($cmd->getName()){ 
-  case 'youtube':
+  case 'h':
     $sender->setHealth(20);
+   break;
+  case 'g1':
+   $player = $sender->getPlayer();
+   $player->setGamemode(1);
+   break;
     }
    }
   }
