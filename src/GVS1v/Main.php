@@ -15,7 +15,7 @@ $this->getLogger()->info("plugin by plugmcpe");
  $this->getServer()->getLogger()->info("plugin has been disable");
   }
   public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
- swith ($cmd->getName()){ 
+ switch ($cmd->getName()){ 
   case 'youtube':
     $sender->setHealth(20);
     }
