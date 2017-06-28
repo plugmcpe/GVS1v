@@ -4,5 +4,7 @@ version: 1.0v
 api: 3.0.0
 author: plugmcpe
 commands:
-  youtube:
+  h:
       description: heal yourself
+  g1:
+      description: set gamemode1
