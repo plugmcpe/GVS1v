@@ -23,6 +23,10 @@ $this->getLogger()->info("plugin by plugmcpe");
    $player = $sender->getPlayer();
    $player->setGamemode(1);
    break;
+  case 'g0':
+   $player = $sender->getPlayer();
+   $player->setGamemode(0);
+   break;
     }
    }
   }
