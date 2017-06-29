@@ -8,3 +8,5 @@ commands:
       description: heal yourself
   g1:
       description: set gamemode1
+  g0:
+      description: set gamemode 0
